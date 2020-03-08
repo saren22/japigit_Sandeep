@@ -55,10 +55,10 @@ def main():
             priceOutput = 'The current price of ' + inputVal.upper() +' is: ' + latestPrice + '\n'
             fileWrite.write(priceOutput)   #write to file
 
-            print(priceOutput)
+            print(priceOutput) 
 
     fileWrite.write('\nStock Quotes retrieved successfully!')   #write to file
-    fileWrite.close()
+    fileWrite.close() 
 
 
 if __name__== "__main__":    
