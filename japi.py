@@ -56,6 +56,8 @@ def main():
             fileWrite.write(priceOutput)   #write to file
 
             print(priceOutput)
+
+    fileWrite.write('\nStock Quotes retrieved successfully!')   #write to file
     fileWrite.close()
 
 
